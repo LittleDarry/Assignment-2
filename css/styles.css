@@ -1,0 +1,229 @@
+@font-face {                                /*Adding the new font, downloaded from google*/
+    font-family: RoboBold;                  /*Giving the new font family a name*/
+    src: url(../fonts/Roboto-Bold.ttf);     /*Selecting where the font file is located*/
+}
+@font-face {
+    font-family: RoboThin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: RoboMed;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: RoboLitIta;
+    src: url(../fonts/Roboto-LightItalic.ttf);
+}
+
+/*
+First Container
+*/
+.container1 {
+    background-color: #1f2937;
+    height: 540px;
+    width: auto;
+}
+
+.itemcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.subitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.headerlogo {
+    font-size: 24px;
+    font-family: RoboBold;
+    color: #f9faf8;
+}
+
+#headerlink {
+    display: flex;
+    flex-direction: row;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-family: RoboThin;
+    gap: 40px;
+}
+
+.imageplaceholder {
+    display: flex;
+    width: 500px;
+    height: 220px;
+    background-color: rgb(124, 134, 132);
+    color: white;
+    font-family: RoboThin;
+    align-items: center;
+    justify-content: center;
+}
+
+#maincontentcontainer {
+    padding: 60px;
+}
+
+.contentheading {
+    font-size: 48px;
+    color: #f9faf8;
+    font-family: RoboBold;
+}
+
+span {
+    font-size: 18px;
+    font-family: RoboThin;
+    color: #e5e7eb;
+}
+
+.signupbtn { /*did not use <btn> tag*/
+    width: 120px;
+    height: 25px;
+    background-color: #3882f6;
+    color: white;
+    font-family: RoboThin;
+    text-align: center;
+    border-radius: 7px;
+}
+
+/*
+Second Container
+*/
+
+.container2 {
+    height: 650px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-family: RoboBold;
+    text-align: center;
+    align-items: center;
+}
+
+.subcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+
+.subitems {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    align-items: center;
+}
+
+.subcubes {
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+    border: 6px solid #3882f6;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.subtext {
+    display: inline-block;
+    width: 240px;
+    font-size: 25px;
+    font-family: RoboMed;
+}
+
+/*
+Third Container
+*/
+
+.container3 {
+    height: 450px;
+    padding: 16px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    display: inline-block;
+    width: 785px;
+    height: 160px;
+}
+
+.container3 .quote {
+    font-size: 36px;
+    font-family: RoboLitIta;
+}
+.container3 .author {
+    font-size: 20px;
+    font-family: RoboBold;
+    padding-left: 700px;
+}
+
+/*
+Fourth Container
+*/
+
+.container4 {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actioncontainer {
+    width: 1000px;
+    height: 190px;
+    border-radius: 17px;
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.itemcontent {
+    display: flex;
+    flex-direction: column;
+    width: 485px;
+    color: white;
+    align-items: flex-start;
+    padding-left: 70px;
+}
+.actionheading {
+    font-family: RoboMed;
+}
+
+.signupbtn {
+    border: 2px solid white;
+    font-family: RoboMed;
+}
+
+#btnsignup {
+    align-items: center;
+}
+
+/*
+Footer Container
+*/
+ .footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+ }
+
+ .copyrightlogo {
+    color: white;
+    font-family: RoboThin;
+ }
